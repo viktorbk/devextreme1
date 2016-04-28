@@ -1,0 +1,21 @@
+{
+  "name": "devex",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Viktor Kjartansson <viktor@viktor.is>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "devextreme": "^15.2.9",
+    "jquery-ui": "jqueryui#^1.11.4"
+  }
+}

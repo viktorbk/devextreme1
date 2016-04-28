@@ -1,0 +1,9 @@
+{
+  "ambientDependencies": {
+    "devextreme": "registry:dt/devextreme#15.2.9+20160412170655",
+    "jquery": "registry:dt/jquery#1.10.0+20160417213236",
+    "jqueryui": "registry:dt/jqueryui#1.9.0+20160317120654",
+    "react": "registry:dt/react#0.14.0+20160423065914",
+    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040"
+  }
+}

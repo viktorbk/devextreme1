@@ -1,0 +1,13 @@
+{
+  "name": "jquery-1.11.3",
+  "_cacheHeaders": {
+    "ETag": "W/\"553fb36a-456ea\"",
+    "Last-Modified": "Tue, 28 Apr 2015 16:20:58 GMT",
+    "Content-Type": "application/javascript; charset=utf-8"
+  },
+  "_release": "e-tag:W/\"553fb36",
+  "main": "index.js",
+  "_source": "http://code.jquery.com/jquery-1.11.3.js",
+  "_target": "*",
+  "_originalSource": "http://code.jquery.com/jquery-1.11.3.js"
+}
