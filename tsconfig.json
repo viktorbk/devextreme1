@@ -10,7 +10,6 @@
     "files": [
         "./typings/main.d.ts",
         "./src/components/Menu.tsx",
-        "./src/components/Tab.tsx",
         "./src/index.tsx"
     ]
 }
