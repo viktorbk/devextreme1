@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-export interface MenuProps { items: any }
+export interface MenuProps { items: any, newPrj: Function }
 
 export class Menu extends React.Component<MenuProps, {}> {
 
@@ -12,7 +12,9 @@ export class Menu extends React.Component<MenuProps, {}> {
       hideSubmenuOnMouseLeave: false,
       displayExpr: "name",
       onItemClick: (itm: any) => {
-        console.log(itm.itemData);
+        if(itm.itemData.id == 10)
+          this.props.newPrj("New Project");
+
       }
     }).dxMenu("instance");
   }

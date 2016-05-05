@@ -10,6 +10,9 @@
     "files": [
         "./typings/main.d.ts",
         "./src/components/Menu.tsx",
+        "./src/components/App.tsx",
+        "./src/components/TabList.tsx",
+        "./src/redux/model.ts",
         "./src/index.tsx"
     ]
 }

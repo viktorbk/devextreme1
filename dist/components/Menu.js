@@ -12,13 +12,15 @@ var Menu = (function (_super) {
         _super.apply(this, arguments);
     }
     Menu.prototype.componentDidMount = function () {
+        var _this = this;
         var menu = $(ReactDOM.findDOMNode(this));
         menu.dxMenu({
             dataSource: this.props.items,
             hideSubmenuOnMouseLeave: false,
             displayExpr: "name",
             onItemClick: function (itm) {
-                console.log(itm.itemData);
+                if (itm.itemData.id == 10)
+                    _this.props.newPrj("New Project");
             }
         }).dxMenu("instance");
     };

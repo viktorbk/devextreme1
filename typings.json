@@ -3,7 +3,13 @@
     "devextreme": "registry:dt/devextreme#15.2.9+20160412170655",
     "jquery": "registry:dt/jquery#1.10.0+20160417213236",
     "jqueryui": "registry:dt/jqueryui#1.9.0+20160317120654",
+    "lodash": "registry:dt/lodash#3.10.0+20160330154726",
     "react": "registry:dt/react#0.14.0+20160423065914",
-    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040"
+    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
+    "redux-actions": "registry:dt/redux-actions#0.8.0+20160317120654"
+  },
+  "dependencies": {
+    "react-redux": "registry:npm/react-redux#4.4.0+20160207114942",
+    "redux": "registry:npm/redux#3.0.6+20160214194820"
   }
 }
